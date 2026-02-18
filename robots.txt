@@ -1,0 +1,82 @@
+# robots.txt — comidapp.cl
+# Generado: 2026-02-17
+
+# === Permitir todos los crawlers ===
+User-agent: *
+Allow: /
+
+# Bloquear archivos que no deben indexarse
+Disallow: /css/
+Disallow: /js/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /browserconfig.xml
+Disallow: /site.webmanifest
+
+# === Google AdsBot ===
+User-agent: AdsBot-Google
+Allow: /
+
+# === Google Image Bot ===
+User-agent: Googlebot-Image
+Allow: /
+Allow: /og-image.jpg
+
+# === Bots de IA (bloquear entrenamiento de modelos) ===
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+# === Bots maliciosos conocidos ===
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# === Sitemap ===
+Sitemap: https://comidapp.cl/sitemap.xml
+
+# === Host canónico ===
+Host: comidapp.cl
