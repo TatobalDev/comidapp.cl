@@ -1,0 +1,8 @@
+{
+  // ComidApp.cl — Cloudflare Pages static deployment
+  "name": "comidapp-landing",
+  "compatibility_date": "2026-02-18",
+  "assets": {
+    "directory": "."
+  }
+}
